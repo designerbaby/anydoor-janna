@@ -1,0 +1,32 @@
+{
+    "name": "anydoor",
+    "version": "0.0.2",
+    "description": "tiny nodejs web server",
+    "main": "build/index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pre-commit": [
+        "fix",
+        "lint"
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "static",
+        "webserver"
+    ],
+    "author": "liujiana",
+    "email": "liujiana@yy.com",
+    "license": "ISC",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "devDependencies": {
+        "pre-commit": "^1.2.2"
+    }
+}

@@ -1,10 +1,10 @@
 {
-    "name": "anydoor",
+    "name": "anydoor-janna",
     "version": "0.1.1",
     "description": "tiny nodejs web server",
     "main": "src/app.js",
     "bin": {
-        "anydoor": "bin/anydoor"
+        "anydoor-janna": "bin/anydoor-janna"
     },
     "scripts": {
         "lint": "eslint .",

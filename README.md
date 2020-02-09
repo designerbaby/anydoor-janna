@@ -31,3 +31,6 @@ anydoor-janna -d /usr # 设置根目录为 /usr
   - route.js 主处理路径
   - openUrl.js 浏览器自动打开链接
 - template/dir.tpl 模版文件
+
+## github地址
+https://www.npmjs.com/package/anydoor-janna

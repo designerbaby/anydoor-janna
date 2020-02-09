@@ -1,6 +1,6 @@
 {
     "name": "anydoor-janna",
-    "version": "0.1.1",
+    "version": "0.1.4",
     "description": "tiny nodejs web server",
     "main": "src/app.js",
     "bin": {

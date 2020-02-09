@@ -1,8 +1,11 @@
 {
     "name": "anydoor",
-    "version": "0.0.2",
+    "version": "0.1.1",
     "description": "tiny nodejs web server",
-    "main": "build/index.js",
+    "main": "src/app.js",
+    "bin": {
+        "anydoor": "bin/anydoor"
+    },
     "scripts": {
         "lint": "eslint .",
         "fix": "eslint --fix ."
@@ -25,7 +28,7 @@
     "bugs": {
         "url": ""
     },
-    "homepage": "",
+    "homepage": "https://github.com/designerbaby",
     "devDependencies": {
         "babel-eslint": "^10.0.3",
         "eslint": "^6.8.0",
@@ -33,6 +36,7 @@
     },
     "dependencies": {
         "chalk": "^3.0.0",
-        "handlebars": "^4.7.2"
+        "handlebars": "^4.7.2",
+        "yargs": "^15.1.0"
     }
 }
